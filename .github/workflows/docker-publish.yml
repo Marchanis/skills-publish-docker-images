@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghrc.io/marchanis/skills/publish-docker-images/stackoverflown
+          images: ghcr.io/marchanis/skills-publish-docker-images/stackoverflown
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
